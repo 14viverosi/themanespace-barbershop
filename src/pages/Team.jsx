@@ -11,19 +11,19 @@ const Team = () => {
     const teamMembers = [
         {
             id: 1,
-            name: 'James',
+            name: 'Sarah',
             role: 'Master Stylist',
             image: 'https://images.unsplash.com/photo-1542596594-649edbc13630?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
             bio: 'James has over 15 years of experience in precision cutting and classic grooming. He founded Main Space to bring a premium yet accessible barbering experience to the community.',
-            socials: { instagram: '#', twitter: '#' }
+            socials: { instagram: '#' }
         },
         {
             id: 2,
-            name: 'Sarah',
+            name: 'James',
             role: 'Senior Stylist',
             image: 'https://images.unsplash.com/photo-1579758629938-03607ccdbaba?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
             bio: 'Specializing in modern texturizing and beard sculpting, Sarah brings a creative flair to every cut. She loves helping clients find a style that perfectly suits their face shape.',
-            socials: { instagram: '#', linkedin: '#' }
+            socials: { instagram: '#' }
         },
         {
             id: 3,
