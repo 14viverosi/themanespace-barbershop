@@ -115,3 +115,28 @@
         gap: 5px;
     }
 }
+
+/* Page Section Headers */
+.team-page .section-header {
+    text-align: center;
+    margin-bottom: var(--spacing-lg);
+}
+
+.team-page .section-title {
+    font-size: 2.5rem;
+    color: var(--color-tan);
+    text-transform: uppercase;
+    margin-bottom: var(--spacing-xs);
+}
+
+.team-page .section-divider {
+    width: 60px;
+    height: 4px;
+    background-color: var(--color-tan);
+    margin: 0 auto;
+}
+
+.team-page .section-subtitle {
+    margin-top: var(--spacing-sm);
+    color: var(--color-text-muted);
+}
