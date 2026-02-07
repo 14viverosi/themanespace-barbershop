@@ -26,11 +26,13 @@ const Home = () => {
                         <div className="section-divider"></div>
                     </div>
                     <div className="about-content">
-                        <p className="about-text">
-                            Established in 2023, Main Space blends traditional techniques with modern style.
-                            We believe that a haircut is more than just a service—it's an experience.
-                            Our team of expert barbers is dedicated to helping you look and feel your absolute best.
-                        </p>
+                        <div className="about-text">
+                            <p>
+                                At The Mane Space, we believe that a haircut is more than just a service—it's an experience.
+                                Located in the heart of the city, we combine old-school barbering techniques with modern style suitable for the contemporary gentleman.
+                                Whether you need a classic cut, a hot towel shave, or a beard trim, our expert barbers are here to help you look and feel your best.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </section>

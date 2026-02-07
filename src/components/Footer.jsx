@@ -7,7 +7,7 @@ const Footer = () => {
             <div className="footer-container container">
                 <div className="footer-content">
                     <div className="footer-brand">
-                        <h3>Main Space</h3>
+                        <h3>The Mane Space</h3>
                         <p>Your Look. Your Space.</p>
                     </div>
                     <div className="footer-socials">
@@ -16,7 +16,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="footer-bottom">
-                    <p>&copy; {new Date().getFullYear()} Main Space. All rights reserved.</p>
+                    <p>&copy; {currentYear} The Mane Space. All rights reserved.</p>
                 </div>
             </div>
         </footer>

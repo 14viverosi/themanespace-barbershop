@@ -4,6 +4,8 @@ import { Menu, X } from 'lucide-react';
 import { useBooking } from '../context/BookingContext';
 import './Navbar.css';
 
+import logo from '../assets/logo-full.png';
+
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
     const { openBookingModal } = useBooking();
@@ -20,7 +22,7 @@ const Navbar = () => {
         <nav className="navbar">
             <div className="navbar-container container">
                 <Link to="/" className="navbar-logo" onClick={closeMenu}>
-                    Main Space
+                    <img src={logo} alt="The Mane Space" className="logo-image" />
                 </Link>
 
                 {/* Desktop Menu */}
