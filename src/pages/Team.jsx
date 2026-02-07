@@ -14,7 +14,7 @@ const Team = () => {
             name: 'Dom',
             role: 'Owner/Head Barber',
             image: '',
-            bio: 'Dom discovered his passion for barbering in high school, where he started cutting friends/ hair and quickly realized he had a gift. Starting from nothing but a pair of clippers and a dream, he built his reputation one haircut at a time. Through unwavering determination, Dom transformed that humble beginning into The Main Space Barbershop, proving that passion combined with relentless work ethic can turn a high school side hustle into a thriving legacy.',
+            bio: 'Dom discovered his passion for barbering in high school, where he started cutting friends hair and quickly realized he had a gift. Starting from nothing but a pair of clippers and a dream, he built his reputation one haircut at a time. Through unwavering determination, Dom transformed that humble beginning into The Main Space Barbershop, proving that passion combined with relentless work ethic can turn a high school side hustle into a thriving legacy.',
             socials: { instagram: '#' }
         },
         {
