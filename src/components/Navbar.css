@@ -60,6 +60,7 @@
     text-transform: uppercase;
     letter-spacing: 0.05em;
     margin-bottom: 2px;
+    white-space: nowrap;
 }
 
 .logo-text-bottom {
@@ -160,5 +161,35 @@
         display: block;
         margin-left: 12px;
         margin-right: -8px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .navbar-container {
+        height: 70px;
+    }
+
+    .logo-image {
+        height: 40px;
+    }
+
+    .logo-text-top {
+        font-size: 1.25rem;
+    }
+
+    .logo-text-bottom {
+        font-size: 0.6rem;
+        letter-spacing: 0.4em;
+        margin-right: -0.4em;
+    }
+
+    .nav-cta {
+        padding: 6px 12px;
+        font-size: 0.7rem;
+        min-height: 36px;
+    }
+
+    .nav-left {
+        gap: 8px;
     }
 }
